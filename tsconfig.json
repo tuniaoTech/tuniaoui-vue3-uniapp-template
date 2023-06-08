@@ -8,15 +8,8 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "lib": ["esnext", "dom"],
+    "lib": ["ESNext", "Dom", "DOM.Iterable"],
     "types": ["@dcloudio/types", "@tuniao/tnui-vue3-uniapp/global"]
   },
-  "exclude": ["node_modules"],
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "node_modules/@tuniao/tnui-vue3-uniapp"
-  ]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
