@@ -27,3 +27,6 @@ dist
 coverage
 dist-ssr
 *.local
+
+# lock
+pnpm-lock.yaml
